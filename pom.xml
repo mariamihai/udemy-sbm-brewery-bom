@@ -184,9 +184,11 @@
                             <rules>
                                 <requireMavenVersion>
                                     <version>[3.6.0,)</version>
+                                    <message>Invalid Maven Version</message>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <version>11</version>
+                                    <message>Invalid Java version</message>
                                 </requireJavaVersion>
                                 <requireReleaseDeps>
                                     <onlyWhenRelease>true</onlyWhenRelease>
